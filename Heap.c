@@ -36,18 +36,19 @@ void main()
 
     int ch;
     printf("Enter choice:");
-    while(1){
-    scanf("%d",&ch);
-    switch(ch)
+    while(1)
     {
-        case 1:
-            insert();
-            break;
-        case 2:
-            display();
-            break;
-        default:
-         exit(0);
+        scanf("%d",&ch);
+        switch(ch)
+        {
+            case 1:
+                insert();
+                break;
+            case 2:
+                display();
+                break;
+            default:
+                exit(0);
+        }
     }
-}
 }
